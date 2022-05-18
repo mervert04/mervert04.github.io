@@ -1,0 +1,110 @@
+* {box-sizing: border-box;}
+
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+          overflow: hidden;
+          background-color: #db776e;
+          padding: 10px 10px;
+        }
+
+        .header a {
+          float: left;
+          color: #fefefe;
+          text-align: center;
+          padding: 12px ;
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 25px;
+          border-radius: 4px;
+        }
+
+        .header a logo{
+          padding-top: 10px;
+        }
+
+        .header a:hover {
+          background-color: #fff;
+          color: #000000;
+        }
+      
+       
+        .header-right{
+            float:right;
+        }
+       
+        @media screen and (max-width: 500px) {
+            .header a {
+              float: none;
+              display: block;
+              text-align: left;
+            }
+  
+            .header-left {
+              float: none;
+            }
+            .header-right{
+              float: none;
+            }
+          }
+          .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+          .item{
+            width:400px;
+          }
+          #fixedbutton {
+            position: absolute;
+            top: 820px;
+            right: 0px; 
+          }  
+          
+         
+          img {
+            width: 60%;
+          }	
+          .container {
+            display: flex;
+            flex: 20%;
+         }
+         .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+    
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+        .btn-primary{
+          text-decoration: none;
+          border: none;
+          color: #fff;
+          background-color: #ff647f;
+          padding: 10px 20px;
+          text-align: center;
+          display: inline-block;
+          border-radius: 10px;
+          font-size: 15px;
+          cursor: pointer;
+          margin-top: 10px;
+        }
+        .btn-primary:hover{
+          background-color: pink;
+        }
+        .card{
+          max-width: 20rem;
+          margin-top: 10%;
+          border-radius: 5px;
+          background-color: #a9d4d9;
+          }
